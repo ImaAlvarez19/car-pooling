@@ -1,0 +1,29 @@
+# Compiled JavaScript files
+lib/
+
+# Reports
+coverage
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+
+# Ides files
+.vscode
+.idea
+
+# Firebase files
+.runtimeconfig.json
+
+# SOs files
+.DS_Store
+
+# Logs
+firebase-debug.log*
+ui-debug.log
+
+# Web
+api-leads-web/build/
+api-leads-web/.env

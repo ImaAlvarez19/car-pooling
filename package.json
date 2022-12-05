@@ -1,0 +1,42 @@
+{
+  "name": "car-pooling-challenge-candidate-wuwndi1m2y",
+  "version": "1.0.0",
+  "description": "Design/implement a system to manage car pooling.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=./lib node lib/index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon src/index.ts",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --ext .js,.ts . --fix",
+    "test": "jest --collectCoverage --silent",
+    "localChecks": "npm run build && npm run lint:fix && npm run test",
+    "watch:test": "jest --watch",
+    "watch:ts": "tsc -w --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImaAlvarez19/car-pooling"
+  },
+  "author": "Imanol Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/jest": "^29.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "http-status-codes": "^2.2.0",
+    "jest": "^29.3.1",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
